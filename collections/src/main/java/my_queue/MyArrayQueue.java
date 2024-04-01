@@ -1,7 +1,5 @@
 package my_queue;
 
-import java.util.Arrays;
-
 public class MyArrayQueue implements MyQueue {
     Integer[] arr;
     private int size = 0;

@@ -52,7 +52,7 @@ public class MyLinkedList implements MyList {
                 ++i;
             }
             if (node.prev == null) {
-                node.prev = new Node(obj, null, node);;
+                node.prev = new Node(obj, null, node);
                 start = node.prev;
             } else if (node.next == null) {
                 node.next = new Node(obj, end, null);
