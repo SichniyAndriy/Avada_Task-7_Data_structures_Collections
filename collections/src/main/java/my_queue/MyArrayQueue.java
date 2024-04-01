@@ -7,6 +7,7 @@ public class MyArrayQueue implements MyQueue {
     public MyArrayQueue() {
         this(10);
     }
+
     public MyArrayQueue(int n) {
         arr = new Integer[n];
     }
