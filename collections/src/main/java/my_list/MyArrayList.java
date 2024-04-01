@@ -54,8 +54,8 @@ public class MyArrayList implements MyList {
             }
         }
         if (index >= 0) {
-            System.arraycopy(arr, index + 1, arr, index, size - index);
-            --size;
+            System.arraycopy(arr, index + 1, arr, index, size - 1 - index);
+            arr[--size] = null;
             return true;
         }
         return false;

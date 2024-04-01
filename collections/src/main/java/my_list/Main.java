@@ -27,11 +27,13 @@ public class Main {
         }
         System.out.println(myArrayList);
 
-        myArrayList.remove(5);
+        myArrayList.remove(2);
         System.out.println(myArrayList);
-        myArrayList.remove(10);
+        myArrayList.remove(8);
         System.out.println(myArrayList);
-        myArrayList.remove(15);
+        myArrayList.remove(14);
+        System.out.println(myArrayList);
+        myArrayList.remove(105);
         System.out.println(myArrayList);
     }
 
