@@ -115,7 +115,7 @@ public class MyArrayList implements MyList {
 
     //------------------------------ PRIVATE ------------------------------\\
     private boolean checkPlace() {
-        if (size > 2_000_000_000) {
+        if (size > 1_000_000_000) {
             System.out.println("Досягнуто ліміт значень");
             return false;
         } else if (size == arr.length) {
