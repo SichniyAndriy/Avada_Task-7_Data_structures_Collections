@@ -16,11 +16,5 @@ public class Main {
         Integer z = 1 << 30;
         char[] chZArr = Integer.toBinaryString(z).toCharArray();
         System.out.println(chZArr.length + " " + Arrays.toString(chZArr) + " " + z);
-
-//        for (int i = y; i > -256 ; --i) {
-//            System.out.print(i + "\t- ");
-//            syArr = Integer.toBinaryString(i).toCharArray();
-//            System.out.println(Arrays.toString(syArr));
-//        }
     }
 }
