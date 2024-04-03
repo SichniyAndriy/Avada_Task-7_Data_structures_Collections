@@ -1,4 +1,4 @@
-package my_list;
+package main.java.my_list;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

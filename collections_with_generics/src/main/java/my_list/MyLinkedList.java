@@ -1,4 +1,4 @@
-package my_list;
+package main.java.my_list;
 
 public class MyLinkedList<T> implements MyList<T> {
     Node start;
