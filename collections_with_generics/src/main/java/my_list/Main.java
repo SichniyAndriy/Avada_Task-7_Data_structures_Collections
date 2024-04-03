@@ -1,13 +1,13 @@
-package my_list;
+package main.java.my_list;
 
-import lombok.AllArgsConstructor;
+import main.java.Person;
 import net.datafaker.Faker;
 
 public class Main {
     private static final Faker faker = new Faker();
 
     public static void main(String[] args) {
-       //testMyArrayList();
+       testMyArrayList();
        testMyLinkedList();
     }
 
@@ -73,21 +73,5 @@ public class Main {
         }
 
         myArrayList.clear();
-    }
-}
-
-@AllArgsConstructor
-class Person {
-    String id;
-    String name;
-    Integer age;
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
     }
 }
