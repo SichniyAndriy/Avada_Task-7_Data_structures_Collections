@@ -1,4 +1,4 @@
-package main.java.my_queue;
+package my_queue;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package main.java.my_queue;
+package my_queue;
 
 import main.java.Person;
 import net.datafaker.Faker;

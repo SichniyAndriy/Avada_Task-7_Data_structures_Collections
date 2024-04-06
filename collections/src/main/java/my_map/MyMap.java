@@ -1,4 +1,4 @@
-package main.java.my_map;
+package my_map;
 
 public interface MyMap {
     int size();

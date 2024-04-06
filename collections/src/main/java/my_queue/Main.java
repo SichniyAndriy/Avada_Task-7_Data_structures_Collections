@@ -1,4 +1,4 @@
-package main.java.my_queue;
+package my_queue;
 
 public class Main {
     public static void main(String[] args) {

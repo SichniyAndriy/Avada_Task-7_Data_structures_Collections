@@ -1,4 +1,4 @@
-package main.java.my_list;
+package my_list;
 
 public interface MyList {
     int size();
