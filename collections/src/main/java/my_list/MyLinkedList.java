@@ -67,16 +67,24 @@ public class MyLinkedList implements MyList {
 
     @Override
     public boolean remove(Integer obj) {
-        Node node = start;
-        while (node != null) {
-            if (node.value.equals(obj)) {
-                node.prev.next = node.next;
-                node.next.prev = node.prev;
-                --size;
-                return true;
+
+        if (start.value.equals(obj)) {
+            start = start.next;
+        } else if (end.value.equals(obj)) {
+            end = end.prev;
+        } else {
+            Node node = start.next;
+            while (node != null) {
+                if (node.value.equals(obj)) {
+                    node.prev.next = node.next;
+                    node.next.prev = node.prev;
+                    --size;
+                    return true;
+                }
+                node = node.next;
             }
-            node = node.next;
         }
+
         return false;
     }
 

@@ -3,11 +3,11 @@ package my_queue;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class MyLinkedQueue<T> implements MyQueue<T> {
+public class MyArrayQueue<T> implements MyQueue<T> {
     T[] arr;
     private int size = 0;
 
-    public MyLinkedQueue(Class<T> tClass) {
+    public MyArrayQueue(Class<T> tClass) {
         arr = (T[]) Array.newInstance(tClass, 10);
     }
 

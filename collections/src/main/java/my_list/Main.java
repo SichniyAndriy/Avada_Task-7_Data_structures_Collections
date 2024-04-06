@@ -26,12 +26,13 @@ public class Main {
         myLinkedList.remove(x);
         index = faker.random().nextInt(0, myLinkedList.size() - 1);
         x = myLinkedList.get(index);
-        myLinkedList.remove(index);
+        myLinkedList.remove(x);
         index = faker.random().nextInt(0, myLinkedList.size() - 1);
-        x = myLinkedList.get(index);;
-        myLinkedList.remove(index);
-        x = myLinkedList.get(myLinkedList.size() - 1);
-        myLinkedList.remove(index);
+        x = myLinkedList.get(index);
+        myLinkedList.remove(x);
+        index = faker.random().nextInt(0, myLinkedList.size() - 1);
+        x = myLinkedList.get(index);
+        myLinkedList.remove(x);
 
         myLinkedList.clear();
     }
