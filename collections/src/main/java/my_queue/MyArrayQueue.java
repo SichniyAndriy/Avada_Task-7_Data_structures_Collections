@@ -1,4 +1,4 @@
-package my_queue;
+package main.java.my_queue;
 
 public class MyArrayQueue implements MyQueue {
     Integer[] arr;

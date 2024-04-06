@@ -1,4 +1,4 @@
-package my_map;
+package main.java.my_map;
 
 import java.util.Arrays;
 import java.util.Objects;
